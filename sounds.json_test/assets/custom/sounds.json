@@ -1,0 +1,51 @@
+{
+  "handcrap.01": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random.burp",
+        "type": "event",
+        "weight": 6,
+        "stream": true,
+        "attenuation_distance":16,
+        "preload":false,
+        "volume":1.0,
+        "pitch":1.0
+      },
+      "custom:handcrap_01"
+    ]
+  },
+  "handcrap.02": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random.burp",
+        "type": "event",
+        "weight": 6,
+        "stream": true,
+        "attenuation_distance":16,
+        "preload":false,
+        "volume":1.0,
+        "pitch":1.0
+      },
+      "custom:custom_folder/handcrap_02"
+    ]
+  },
+  "handcrap.03": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random.burp",
+        "type": "event",
+        "weight": 600,
+        "stream": true,
+        "attenuation_distance":16,
+        "preload":false,
+        "volume":1.0,
+        "pitch":1.0
+      },
+      "custom:handcrap_01",
+      "custom:custom_folder/handcrap_02"
+    ]
+  }
+}
